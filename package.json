@@ -1,0 +1,27 @@
+{
+  "name": "dietogether-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS backend for a group chat application where the users can chat with other people only when their mobile battery is less than 5%.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gladwinbobby/dietogether-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socket-io",
+    "mobile"
+  ],
+  "author": "Bobby",
+  "bugs": {
+    "url": "https://github.com/gladwinbobby/dietogether-nodejs/issues"
+  },
+  "homepage": "https://github.com/gladwinbobby/dietogether-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
